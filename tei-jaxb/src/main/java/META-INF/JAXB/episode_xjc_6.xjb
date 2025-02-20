@@ -1,0 +1,1801 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Diese Datei wurde mit der Eclipse Implementation of JAXB, v3.0.2 generiert 
+Siehe https://eclipse-ee4j.github.io/jaxb-ri 
+Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
+Generiert: 2024.10.10 um 01:05:07 PM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.tei-c.org/ns/1.0">
+    <schemaBindings map="false">
+      <package name="org.tei_c.ns._1"/>
+    </schemaBindings>
+    <bindings scd="tns:p">
+      <class ref="org.tei_c.ns._1.P"/>
+    </bindings>
+    <bindings scd="~tns:macro.paraContent">
+      <class ref="org.tei_c.ns._1.MacroParaContent"/>
+    </bindings>
+    <bindings scd="tns:g">
+      <class ref="org.tei_c.ns._1.G"/>
+    </bindings>
+    <bindings scd="tns:l">
+      <class ref="org.tei_c.ns._1.L"/>
+    </bindings>
+    <bindings scd="tns:s">
+      <class ref="org.tei_c.ns._1.S"/>
+    </bindings>
+    <bindings scd="~tns:macro.phraseSeq">
+      <class ref="org.tei_c.ns._1.MacroPhraseSeq"/>
+    </bindings>
+    <bindings scd="tns:quote">
+      <class ref="org.tei_c.ns._1.Quote"/>
+    </bindings>
+    <bindings scd="~tns:macro.specialPara">
+      <class ref="org.tei_c.ns._1.MacroSpecialPara"/>
+    </bindings>
+    <bindings scd="tns:cl">
+      <class ref="org.tei_c.ns._1.Cl"/>
+    </bindings>
+    <bindings scd="tns:phr">
+      <class ref="org.tei_c.ns._1.Phr"/>
+    </bindings>
+    <bindings scd="tns:w">
+      <class ref="org.tei_c.ns._1.W"/>
+    </bindings>
+    <bindings scd="tns:seg">
+      <class ref="org.tei_c.ns._1.Seg"/>
+    </bindings>
+    <bindings scd="tns:m">
+      <class ref="org.tei_c.ns._1.M"/>
+    </bindings>
+    <bindings scd="tns:hi">
+      <class ref="org.tei_c.ns._1.Hi"/>
+    </bindings>
+    <bindings scd="tns:q">
+      <class ref="org.tei_c.ns._1.Q"/>
+    </bindings>
+    <bindings scd="tns:c">
+      <class ref="org.tei_c.ns._1.C"/>
+    </bindings>
+    <bindings scd="~tns:macro.xtext">
+      <class ref="org.tei_c.ns._1.MacroXtext"/>
+    </bindings>
+    <bindings scd="tns:index">
+      <class ref="org.tei_c.ns._1.Index"/>
+    </bindings>
+    <bindings scd="tns:term">
+      <class ref="org.tei_c.ns._1.Term"/>
+    </bindings>
+    <bindings scd="tns:span">
+      <class ref="org.tei_c.ns._1.Span"/>
+    </bindings>
+    <bindings scd="~tns:macro.phraseSeq.limited">
+      <class ref="org.tei_c.ns._1.MacroPhraseSeqLimited"/>
+    </bindings>
+    <bindings scd="tns:foreign">
+      <class ref="org.tei_c.ns._1.Foreign"/>
+    </bindings>
+    <bindings scd="tns:emph">
+      <class ref="org.tei_c.ns._1.Emph"/>
+    </bindings>
+    <bindings scd="tns:distinct">
+      <class ref="org.tei_c.ns._1.Distinct"/>
+    </bindings>
+    <bindings scd="tns:mentioned">
+      <class ref="org.tei_c.ns._1.Mentioned"/>
+    </bindings>
+    <bindings scd="tns:soCalled">
+      <class ref="org.tei_c.ns._1.SoCalled"/>
+    </bindings>
+    <bindings scd="tns:gloss">
+      <class ref="org.tei_c.ns._1.Gloss"/>
+    </bindings>
+    <bindings scd="tns:title">
+      <class ref="org.tei_c.ns._1.Title"/>
+    </bindings>
+    <bindings scd="tns:code">
+      <class ref="org.tei_c.ns._1.Code"/>
+    </bindings>
+    <bindings scd="tns:ident">
+      <class ref="org.tei_c.ns._1.Ident"/>
+    </bindings>
+    <bindings scd="tns:catchwords">
+      <class ref="org.tei_c.ns._1.Catchwords"/>
+    </bindings>
+    <bindings scd="tns:dimensions">
+      <class ref="org.tei_c.ns._1.Dimensions"/>
+    </bindings>
+    <bindings scd="tns:dim">
+      <class ref="org.tei_c.ns._1.Dim"/>
+    </bindings>
+    <bindings scd="tns:height">
+      <class ref="org.tei_c.ns._1.Height"/>
+    </bindings>
+    <bindings scd="tns:depth">
+      <class ref="org.tei_c.ns._1.Depth"/>
+    </bindings>
+    <bindings scd="tns:width">
+      <class ref="org.tei_c.ns._1.Width"/>
+    </bindings>
+    <bindings scd="tns:heraldry">
+      <class ref="org.tei_c.ns._1.Heraldry"/>
+    </bindings>
+    <bindings scd="tns:locus">
+      <class ref="org.tei_c.ns._1.Locus"/>
+    </bindings>
+    <bindings scd="tns:locusGrp">
+      <class ref="org.tei_c.ns._1.LocusGrp"/>
+    </bindings>
+    <bindings scd="tns:material">
+      <class ref="org.tei_c.ns._1.Material"/>
+    </bindings>
+    <bindings scd="tns:objectType">
+      <class ref="org.tei_c.ns._1.ObjectType"/>
+    </bindings>
+    <bindings scd="tns:origDate">
+      <class ref="org.tei_c.ns._1.OrigDate"/>
+    </bindings>
+    <bindings scd="tns:pc">
+      <class ref="org.tei_c.ns._1.Pc"/>
+    </bindings>
+    <bindings scd="tns:choice">
+      <class ref="org.tei_c.ns._1.Choice"/>
+    </bindings>
+    <bindings scd="tns:sic">
+      <class ref="org.tei_c.ns._1.Sic"/>
+    </bindings>
+    <bindings scd="tns:corr">
+      <class ref="org.tei_c.ns._1.Corr"/>
+    </bindings>
+    <bindings scd="tns:reg">
+      <class ref="org.tei_c.ns._1.Reg"/>
+    </bindings>
+    <bindings scd="tns:orig">
+      <class ref="org.tei_c.ns._1.Orig"/>
+    </bindings>
+    <bindings scd="tns:unclear">
+      <class ref="org.tei_c.ns._1.Unclear"/>
+    </bindings>
+    <bindings scd="tns:abbr">
+      <class ref="org.tei_c.ns._1.Abbr"/>
+    </bindings>
+    <bindings scd="tns:expan">
+      <class ref="org.tei_c.ns._1.Expan"/>
+    </bindings>
+    <bindings scd="tns:ex">
+      <class ref="org.tei_c.ns._1.Ex"/>
+    </bindings>
+    <bindings scd="tns:am">
+      <class ref="org.tei_c.ns._1.Am"/>
+    </bindings>
+    <bindings scd="tns:add">
+      <class ref="org.tei_c.ns._1.Add"/>
+    </bindings>
+    <bindings scd="tns:del">
+      <class ref="org.tei_c.ns._1.Del"/>
+    </bindings>
+    <bindings scd="tns:damage">
+      <class ref="org.tei_c.ns._1.Damage"/>
+    </bindings>
+    <bindings scd="tns:handShift">
+      <class ref="org.tei_c.ns._1.HandShift"/>
+    </bindings>
+    <bindings scd="tns:restore">
+      <class ref="org.tei_c.ns._1.Restore"/>
+    </bindings>
+    <bindings scd="tns:supplied">
+      <class ref="org.tei_c.ns._1.Supplied"/>
+    </bindings>
+    <bindings scd="tns:surplus">
+      <class ref="org.tei_c.ns._1.Surplus"/>
+    </bindings>
+    <bindings scd="tns:secl">
+      <class ref="org.tei_c.ns._1.Secl"/>
+    </bindings>
+    <bindings scd="tns:mod">
+      <class ref="org.tei_c.ns._1.Mod"/>
+    </bindings>
+    <bindings scd="tns:redo">
+      <class ref="org.tei_c.ns._1.Redo"/>
+    </bindings>
+    <bindings scd="tns:retrace">
+      <class ref="org.tei_c.ns._1.Retrace"/>
+    </bindings>
+    <bindings scd="tns:undo">
+      <class ref="org.tei_c.ns._1.Undo"/>
+    </bindings>
+    <bindings scd="tns:subst">
+      <class ref="org.tei_c.ns._1.Subst"/>
+    </bindings>
+    <bindings scd="tns:milestone">
+      <class ref="org.tei_c.ns._1.Milestone"/>
+    </bindings>
+    <bindings scd="tns:gb">
+      <class ref="org.tei_c.ns._1.Gb"/>
+    </bindings>
+    <bindings scd="tns:pb">
+      <class ref="org.tei_c.ns._1.Pb"/>
+    </bindings>
+    <bindings scd="tns:lb">
+      <class ref="org.tei_c.ns._1.Lb"/>
+    </bindings>
+    <bindings scd="tns:cb">
+      <class ref="org.tei_c.ns._1.Cb"/>
+    </bindings>
+    <bindings scd="tns:fw">
+      <class ref="org.tei_c.ns._1.Fw"/>
+    </bindings>
+    <bindings scd="tns:anchor">
+      <class ref="org.tei_c.ns._1.Anchor"/>
+    </bindings>
+    <bindings scd="tns:media">
+      <class ref="org.tei_c.ns._1.Media"/>
+    </bindings>
+    <bindings scd="tns:desc">
+      <class ref="org.tei_c.ns._1.Desc"/>
+    </bindings>
+    <bindings scd="~tns:macro.limitedContent">
+      <class ref="org.tei_c.ns._1.MacroLimitedContent"/>
+    </bindings>
+    <bindings scd="tns:origPlace">
+      <class ref="org.tei_c.ns._1.OrigPlace"/>
+    </bindings>
+    <bindings scd="tns:secFol">
+      <class ref="org.tei_c.ns._1.SecFol"/>
+    </bindings>
+    <bindings scd="tns:signatures">
+      <class ref="org.tei_c.ns._1.Signatures"/>
+    </bindings>
+    <bindings scd="tns:stamp">
+      <class ref="org.tei_c.ns._1.Stamp"/>
+    </bindings>
+    <bindings scd="tns:watermark">
+      <class ref="org.tei_c.ns._1.Watermark"/>
+    </bindings>
+    <bindings scd="tns:ptr">
+      <class ref="org.tei_c.ns._1.Ptr"/>
+    </bindings>
+    <bindings scd="tns:ref">
+      <class ref="org.tei_c.ns._1.Ref"/>
+    </bindings>
+    <bindings scd="tns:listRef">
+      <class ref="org.tei_c.ns._1.ListRef"/>
+    </bindings>
+    <bindings scd="tns:att">
+      <class ref="org.tei_c.ns._1.Att"/>
+    </bindings>
+    <bindings scd="tns:gi">
+      <class ref="org.tei_c.ns._1.Gi"/>
+    </bindings>
+    <bindings scd="tns:tag">
+      <class ref="org.tei_c.ns._1.Tag"/>
+    </bindings>
+    <bindings scd="tns:val">
+      <class ref="org.tei_c.ns._1.Val"/>
+    </bindings>
+    <bindings scd="tns:date">
+      <class ref="org.tei_c.ns._1.Date"/>
+    </bindings>
+    <bindings scd="tns:graphic">
+      <class ref="org.tei_c.ns._1.Graphic"/>
+    </bindings>
+    <bindings scd="tns:binaryObject">
+      <class ref="org.tei_c.ns._1.BinaryObject"/>
+    </bindings>
+    <bindings scd="tns:formula">
+      <class ref="org.tei_c.ns._1.Formula"/>
+    </bindings>
+    <bindings scd="tns:caesura">
+      <class ref="org.tei_c.ns._1.Caesura"/>
+    </bindings>
+    <bindings scd="tns:rhyme">
+      <class ref="org.tei_c.ns._1.Rhyme"/>
+    </bindings>
+    <bindings scd="tns:specList">
+      <class ref="org.tei_c.ns._1.SpecList"/>
+    </bindings>
+    <bindings scd="tns:specDesc">
+      <class ref="org.tei_c.ns._1.SpecDesc"/>
+    </bindings>
+    <bindings scd="tns:time">
+      <class ref="org.tei_c.ns._1.Time"/>
+    </bindings>
+    <bindings scd="tns:num">
+      <class ref="org.tei_c.ns._1.Num"/>
+    </bindings>
+    <bindings scd="tns:measure">
+      <class ref="org.tei_c.ns._1.Measure"/>
+    </bindings>
+    <bindings scd="tns:measureGrp">
+      <class ref="org.tei_c.ns._1.MeasureGrp"/>
+    </bindings>
+    <bindings scd="tns:unit">
+      <class ref="org.tei_c.ns._1.Unit"/>
+    </bindings>
+    <bindings scd="tns:geo">
+      <class ref="org.tei_c.ns._1.Geo"/>
+    </bindings>
+    <bindings scd="tns:email">
+      <class ref="org.tei_c.ns._1.Email"/>
+    </bindings>
+    <bindings scd="tns:address">
+      <class ref="org.tei_c.ns._1.Address"/>
+    </bindings>
+    <bindings scd="tns:spanGrp">
+      <class ref="org.tei_c.ns._1.SpanGrp"/>
+    </bindings>
+    <bindings scd="tns:interp">
+      <class ref="org.tei_c.ns._1.Interp"/>
+    </bindings>
+    <bindings scd="tns:precision">
+      <class ref="org.tei_c.ns._1.Precision"/>
+    </bindings>
+    <bindings scd="tns:certainty">
+      <class ref="org.tei_c.ns._1.Certainty"/>
+    </bindings>
+    <bindings scd="tns:respons">
+      <class ref="org.tei_c.ns._1.Respons"/>
+    </bindings>
+    <bindings scd="tns:interpGrp">
+      <class ref="org.tei_c.ns._1.InterpGrp"/>
+    </bindings>
+    <bindings scd="tns:substJoin">
+      <class ref="org.tei_c.ns._1.SubstJoin"/>
+    </bindings>
+    <bindings scd="tns:listTranspose">
+      <class ref="org.tei_c.ns._1.ListTranspose"/>
+    </bindings>
+    <bindings scd="tns:transpose">
+      <class ref="org.tei_c.ns._1.Transpose"/>
+    </bindings>
+    <bindings scd="tns:link">
+      <class ref="org.tei_c.ns._1.Link"/>
+    </bindings>
+    <bindings scd="tns:linkGrp">
+      <class ref="org.tei_c.ns._1.LinkGrp"/>
+    </bindings>
+    <bindings scd="tns:timeline">
+      <class ref="org.tei_c.ns._1.Timeline"/>
+    </bindings>
+    <bindings scd="tns:when">
+      <class ref="org.tei_c.ns._1.When"/>
+    </bindings>
+    <bindings scd="tns:join">
+      <class ref="org.tei_c.ns._1.Join"/>
+    </bindings>
+    <bindings scd="tns:joinGrp">
+      <class ref="org.tei_c.ns._1.JoinGrp"/>
+    </bindings>
+    <bindings scd="tns:equiv">
+      <class ref="org.tei_c.ns._1.Equiv"/>
+    </bindings>
+    <bindings scd="tns:alt">
+      <class ref="org.tei_c.ns._1.Alt"/>
+    </bindings>
+    <bindings scd="tns:altGrp">
+      <class ref="org.tei_c.ns._1.AltGrp"/>
+    </bindings>
+    <bindings scd="tns:fs">
+      <class ref="org.tei_c.ns._1.Fs"/>
+    </bindings>
+    <bindings scd="tns:f">
+      <class ref="org.tei_c.ns._1.F"/>
+    </bindings>
+    <bindings scd="tns:vColl">
+      <class ref="org.tei_c.ns._1.VColl"/>
+    </bindings>
+    <bindings scd="tns:binary">
+      <class ref="org.tei_c.ns._1.Binary"/>
+    </bindings>
+    <bindings scd="tns:symbol">
+      <class ref="org.tei_c.ns._1.Symbol"/>
+    </bindings>
+    <bindings scd="tns:numeric">
+      <class ref="org.tei_c.ns._1.Numeric"/>
+    </bindings>
+    <bindings scd="tns:string">
+      <class ref="org.tei_c.ns._1.String"/>
+    </bindings>
+    <bindings scd="tns:vLabel">
+      <class ref="org.tei_c.ns._1.VLabel"/>
+    </bindings>
+    <bindings scd="tns:vAlt">
+      <class ref="org.tei_c.ns._1.VAlt"/>
+    </bindings>
+    <bindings scd="tns:vNot">
+      <class ref="org.tei_c.ns._1.VNot"/>
+    </bindings>
+    <bindings scd="tns:default">
+      <class ref="org.tei_c.ns._1.Default"/>
+    </bindings>
+    <bindings scd="tns:vMerge">
+      <class ref="org.tei_c.ns._1.VMerge"/>
+    </bindings>
+    <bindings scd="tns:fLib">
+      <class ref="org.tei_c.ns._1.FLib"/>
+    </bindings>
+    <bindings scd="tns:fvLib">
+      <class ref="org.tei_c.ns._1.FvLib"/>
+    </bindings>
+    <bindings scd="tns:note">
+      <class ref="org.tei_c.ns._1.Note"/>
+    </bindings>
+    <bindings scd="tns:noteGrp">
+      <class ref="org.tei_c.ns._1.NoteGrp"/>
+    </bindings>
+    <bindings scd="tns:gap">
+      <class ref="org.tei_c.ns._1.Gap"/>
+    </bindings>
+    <bindings scd="tns:ellipsis">
+      <class ref="org.tei_c.ns._1.Ellipsis"/>
+    </bindings>
+    <bindings scd="tns:metamark">
+      <class ref="org.tei_c.ns._1.Metamark"/>
+    </bindings>
+    <bindings scd="tns:addSpan">
+      <class ref="org.tei_c.ns._1.AddSpan"/>
+    </bindings>
+    <bindings scd="tns:damageSpan">
+      <class ref="org.tei_c.ns._1.DamageSpan"/>
+    </bindings>
+    <bindings scd="tns:delSpan">
+      <class ref="org.tei_c.ns._1.DelSpan"/>
+    </bindings>
+    <bindings scd="tns:space">
+      <class ref="org.tei_c.ns._1.Space"/>
+    </bindings>
+    <bindings scd="tns:app">
+      <class ref="org.tei_c.ns._1.App"/>
+    </bindings>
+    <bindings scd="tns:lem">
+      <class ref="org.tei_c.ns._1.Lem"/>
+    </bindings>
+    <bindings scd="tns:div">
+      <class ref="org.tei_c.ns._1.Div"/>
+    </bindings>
+    <bindings scd="tns:meeting">
+      <class ref="org.tei_c.ns._1.Meeting"/>
+    </bindings>
+    <bindings scd="tns:byline">
+      <class ref="org.tei_c.ns._1.Byline"/>
+    </bindings>
+    <bindings scd="tns:affiliation">
+      <class ref="org.tei_c.ns._1.Affiliation"/>
+    </bindings>
+    <bindings scd="tns:name">
+      <class ref="org.tei_c.ns._1.Name"/>
+    </bindings>
+    <bindings scd="tns:orgName">
+      <class ref="org.tei_c.ns._1.OrgName"/>
+    </bindings>
+    <bindings scd="tns:persName">
+      <class ref="org.tei_c.ns._1.PersName"/>
+    </bindings>
+    <bindings scd="tns:offset">
+      <class ref="org.tei_c.ns._1.Offset"/>
+    </bindings>
+    <bindings scd="tns:geogFeat">
+      <class ref="org.tei_c.ns._1.GeogFeat"/>
+    </bindings>
+    <bindings scd="tns:placeName">
+      <class ref="org.tei_c.ns._1.PlaceName"/>
+    </bindings>
+    <bindings scd="tns:bloc">
+      <class ref="org.tei_c.ns._1.Bloc"/>
+    </bindings>
+    <bindings scd="tns:country">
+      <class ref="org.tei_c.ns._1.Country"/>
+    </bindings>
+    <bindings scd="tns:region">
+      <class ref="org.tei_c.ns._1.Region"/>
+    </bindings>
+    <bindings scd="tns:settlement">
+      <class ref="org.tei_c.ns._1.Settlement"/>
+    </bindings>
+    <bindings scd="tns:district">
+      <class ref="org.tei_c.ns._1.District"/>
+    </bindings>
+    <bindings scd="tns:geogName">
+      <class ref="org.tei_c.ns._1.GeogName"/>
+    </bindings>
+    <bindings scd="tns:climate">
+      <class ref="org.tei_c.ns._1.Climate"/>
+    </bindings>
+    <bindings scd="tns:head">
+      <class ref="org.tei_c.ns._1.Head"/>
+    </bindings>
+    <bindings scd="tns:lg">
+      <class ref="org.tei_c.ns._1.Lg"/>
+    </bindings>
+    <bindings scd="tns:dateline">
+      <class ref="org.tei_c.ns._1.Dateline"/>
+    </bindings>
+    <bindings scd="tns:location">
+      <class ref="org.tei_c.ns._1.Location"/>
+    </bindings>
+    <bindings scd="tns:label">
+      <class ref="org.tei_c.ns._1.Label"/>
+    </bindings>
+    <bindings scd="tns:bibl">
+      <class ref="org.tei_c.ns._1.Bibl"/>
+    </bindings>
+    <bindings scd="tns:population">
+      <class ref="org.tei_c.ns._1.Population"/>
+    </bindings>
+    <bindings scd="tns:ab">
+      <class ref="org.tei_c.ns._1.Ab"/>
+    </bindings>
+    <bindings scd="~tns:macro.abContent">
+      <class ref="org.tei_c.ns._1.MacroAbContent"/>
+    </bindings>
+    <bindings scd="tns:witDetail">
+      <class ref="org.tei_c.ns._1.WitDetail"/>
+    </bindings>
+    <bindings scd="tns:state">
+      <class ref="org.tei_c.ns._1.State"/>
+    </bindings>
+    <bindings scd="tns:biblStruct">
+      <class ref="org.tei_c.ns._1.BiblStruct"/>
+    </bindings>
+    <bindings scd="tns:analytic">
+      <class ref="org.tei_c.ns._1.Analytic"/>
+    </bindings>
+    <bindings scd="tns:author">
+      <class ref="org.tei_c.ns._1.Author"/>
+    </bindings>
+    <bindings scd="tns:editor">
+      <class ref="org.tei_c.ns._1.Editor"/>
+    </bindings>
+    <bindings scd="tns:respStmt">
+      <class ref="org.tei_c.ns._1.RespStmt"/>
+    </bindings>
+    <bindings scd="tns:resp">
+      <class ref="org.tei_c.ns._1.Resp"/>
+    </bindings>
+    <bindings scd="tns:textLang">
+      <class ref="org.tei_c.ns._1.TextLang"/>
+    </bindings>
+    <bindings scd="tns:idno">
+      <class ref="org.tei_c.ns._1.Idno"/>
+    </bindings>
+    <bindings scd="tns:availability">
+      <class ref="org.tei_c.ns._1.Availability"/>
+    </bindings>
+    <bindings scd="tns:licence">
+      <class ref="org.tei_c.ns._1.Licence"/>
+    </bindings>
+    <bindings scd="tns:monogr">
+      <class ref="org.tei_c.ns._1.Monogr"/>
+    </bindings>
+    <bindings scd="tns:authority">
+      <class ref="org.tei_c.ns._1.Authority"/>
+    </bindings>
+    <bindings scd="tns:edition">
+      <class ref="org.tei_c.ns._1.Edition"/>
+    </bindings>
+    <bindings scd="tns:sponsor">
+      <class ref="org.tei_c.ns._1.Sponsor"/>
+    </bindings>
+    <bindings scd="tns:funder">
+      <class ref="org.tei_c.ns._1.Funder"/>
+    </bindings>
+    <bindings scd="tns:imprint">
+      <class ref="org.tei_c.ns._1.Imprint"/>
+    </bindings>
+    <bindings scd="tns:classCode">
+      <class ref="org.tei_c.ns._1.ClassCode"/>
+    </bindings>
+    <bindings scd="tns:catRef">
+      <class ref="org.tei_c.ns._1.CatRef"/>
+    </bindings>
+    <bindings scd="tns:publisher">
+      <class ref="org.tei_c.ns._1.Publisher"/>
+    </bindings>
+    <bindings scd="tns:biblScope">
+      <class ref="org.tei_c.ns._1.BiblScope"/>
+    </bindings>
+    <bindings scd="tns:pubPlace">
+      <class ref="org.tei_c.ns._1.PubPlace"/>
+    </bindings>
+    <bindings scd="tns:distributor">
+      <class ref="org.tei_c.ns._1.Distributor"/>
+    </bindings>
+    <bindings scd="tns:pause">
+      <class ref="org.tei_c.ns._1.Pause"/>
+    </bindings>
+    <bindings scd="tns:vocal">
+      <class ref="org.tei_c.ns._1.Vocal"/>
+    </bindings>
+    <bindings scd="tns:kinesic">
+      <class ref="org.tei_c.ns._1.Kinesic"/>
+    </bindings>
+    <bindings scd="tns:incident">
+      <class ref="org.tei_c.ns._1.Incident"/>
+    </bindings>
+    <bindings scd="tns:writing">
+      <class ref="org.tei_c.ns._1.Writing"/>
+    </bindings>
+    <bindings scd="tns:shift">
+      <class ref="org.tei_c.ns._1.Shift"/>
+    </bindings>
+    <bindings scd="tns:notatedMusic">
+      <class ref="org.tei_c.ns._1.NotatedMusic"/>
+    </bindings>
+    <bindings scd="tns:figure">
+      <class ref="org.tei_c.ns._1.Figure"/>
+    </bindings>
+    <bindings scd="tns:sp">
+      <class ref="org.tei_c.ns._1.Sp"/>
+    </bindings>
+    <bindings scd="tns:speaker">
+      <class ref="org.tei_c.ns._1.Speaker"/>
+    </bindings>
+    <bindings scd="tns:list">
+      <class ref="org.tei_c.ns._1.List"/>
+    </bindings>
+    <bindings scd="tns:argument">
+      <class ref="org.tei_c.ns._1.Argument"/>
+    </bindings>
+    <bindings scd="tns:spGrp">
+      <class ref="org.tei_c.ns._1.SpGrp"/>
+    </bindings>
+    <bindings scd="tns:stage">
+      <class ref="org.tei_c.ns._1.Stage"/>
+    </bindings>
+    <bindings scd="tns:move">
+      <class ref="org.tei_c.ns._1.Move"/>
+    </bindings>
+    <bindings scd="tns:view">
+      <class ref="org.tei_c.ns._1.View"/>
+    </bindings>
+    <bindings scd="tns:camera">
+      <class ref="org.tei_c.ns._1.Camera"/>
+    </bindings>
+    <bindings scd="tns:sound">
+      <class ref="org.tei_c.ns._1.Sound"/>
+    </bindings>
+    <bindings scd="tns:caption">
+      <class ref="org.tei_c.ns._1.Caption"/>
+    </bindings>
+    <bindings scd="tns:tech">
+      <class ref="org.tei_c.ns._1.Tech"/>
+    </bindings>
+    <bindings scd="tns:u">
+      <class ref="org.tei_c.ns._1.U"/>
+    </bindings>
+    <bindings scd="tns:annotationBlock">
+      <class ref="org.tei_c.ns._1.AnnotationBlock"/>
+    </bindings>
+    <bindings scd="tns:graph">
+      <class ref="org.tei_c.ns._1.Graph"/>
+    </bindings>
+    <bindings scd="tns:node">
+      <class ref="org.tei_c.ns._1.Node"/>
+    </bindings>
+    <bindings scd="tns:arc">
+      <class ref="org.tei_c.ns._1.Arc"/>
+    </bindings>
+    <bindings scd="tns:tree">
+      <class ref="org.tei_c.ns._1.Tree"/>
+    </bindings>
+    <bindings scd="tns:leaf">
+      <class ref="org.tei_c.ns._1.Leaf"/>
+    </bindings>
+    <bindings scd="tns:iNode">
+      <class ref="org.tei_c.ns._1.INode"/>
+    </bindings>
+    <bindings scd="tns:root">
+      <class ref="org.tei_c.ns._1.Root"/>
+    </bindings>
+    <bindings scd="tns:eTree">
+      <class ref="org.tei_c.ns._1.ETree"/>
+    </bindings>
+    <bindings scd="tns:triangle">
+      <class ref="org.tei_c.ns._1.Triangle"/>
+    </bindings>
+    <bindings scd="tns:eLeaf">
+      <class ref="org.tei_c.ns._1.ELeaf"/>
+    </bindings>
+    <bindings scd="tns:forest">
+      <class ref="org.tei_c.ns._1.Forest"/>
+    </bindings>
+    <bindings scd="tns:listForest">
+      <class ref="org.tei_c.ns._1.ListForest"/>
+    </bindings>
+    <bindings scd="tns:eg">
+      <class ref="org.tei_c.ns._1.Eg"/>
+    </bindings>
+    <bindings scd="tns:moduleSpec">
+      <class ref="org.tei_c.ns._1.ModuleSpec"/>
+    </bindings>
+    <bindings scd="tns:exemplum">
+      <class ref="org.tei_c.ns._1.Exemplum"/>
+    </bindings>
+    <bindings scd="tns:remarks">
+      <class ref="org.tei_c.ns._1.Remarks"/>
+    </bindings>
+    <bindings scd="tns:specGrp">
+      <class ref="org.tei_c.ns._1.SpecGrp"/>
+    </bindings>
+    <bindings scd="tns:specGrpRef">
+      <class ref="org.tei_c.ns._1.SpecGrpRef"/>
+    </bindings>
+    <bindings scd="tns:elementSpec">
+      <class ref="org.tei_c.ns._1.ElementSpec"/>
+    </bindings>
+    <bindings scd="tns:altIdent">
+      <class ref="org.tei_c.ns._1.AltIdent"/>
+    </bindings>
+    <bindings scd="tns:classes">
+      <class ref="org.tei_c.ns._1.Classes"/>
+    </bindings>
+    <bindings scd="tns:memberOf">
+      <class ref="org.tei_c.ns._1.MemberOf"/>
+    </bindings>
+    <bindings scd="tns:content">
+      <class ref="org.tei_c.ns._1.Content"/>
+    </bindings>
+    <bindings scd="tns:classRef">
+      <class ref="org.tei_c.ns._1.ClassRef"/>
+    </bindings>
+    <bindings scd="tns:elementRef">
+      <class ref="org.tei_c.ns._1.ElementRef"/>
+    </bindings>
+    <bindings scd="tns:macroRef">
+      <class ref="org.tei_c.ns._1.MacroRef"/>
+    </bindings>
+    <bindings scd="tns:sequence">
+      <class ref="org.tei_c.ns._1.Sequence"/>
+    </bindings>
+    <bindings scd="tns:alternate">
+      <class ref="org.tei_c.ns._1.Alternate"/>
+    </bindings>
+    <bindings scd="tns:valList">
+      <class ref="org.tei_c.ns._1.ValList"/>
+    </bindings>
+    <bindings scd="tns:valItem">
+      <class ref="org.tei_c.ns._1.ValItem"/>
+    </bindings>
+    <bindings scd="tns:paramList">
+      <class ref="org.tei_c.ns._1.ParamList"/>
+    </bindings>
+    <bindings scd="tns:paramSpec">
+      <class ref="org.tei_c.ns._1.ParamSpec"/>
+    </bindings>
+    <bindings scd="tns:dataRef">
+      <class ref="org.tei_c.ns._1.DataRef"/>
+    </bindings>
+    <bindings scd="tns:dataFacet">
+      <class ref="org.tei_c.ns._1.DataFacet"/>
+    </bindings>
+    <bindings scd="tns:textNode">
+      <class ref="org.tei_c.ns._1.TextNode"/>
+    </bindings>
+    <bindings scd="tns:anyElement">
+      <class ref="org.tei_c.ns._1.AnyElement"/>
+    </bindings>
+    <bindings scd="tns:empty">
+      <class ref="org.tei_c.ns._1.Empty"/>
+    </bindings>
+    <bindings scd="tns:constraintSpec">
+      <class ref="org.tei_c.ns._1.ConstraintSpec"/>
+    </bindings>
+    <bindings scd="tns:constraint">
+      <class ref="org.tei_c.ns._1.Constraint"/>
+    </bindings>
+    <bindings scd="tns:attList">
+      <class ref="org.tei_c.ns._1.AttList"/>
+    </bindings>
+    <bindings scd="tns:attRef">
+      <class ref="org.tei_c.ns._1.AttRef"/>
+    </bindings>
+    <bindings scd="tns:attDef">
+      <class ref="org.tei_c.ns._1.AttDef"/>
+    </bindings>
+    <bindings scd="tns:datatype">
+      <class ref="org.tei_c.ns._1.Datatype"/>
+    </bindings>
+    <bindings scd="tns:defaultVal">
+      <class ref="org.tei_c.ns._1.DefaultVal"/>
+    </bindings>
+    <bindings scd="tns:valDesc">
+      <class ref="org.tei_c.ns._1.ValDesc"/>
+    </bindings>
+    <bindings scd="tns:model">
+      <class ref="org.tei_c.ns._1.Model"/>
+    </bindings>
+    <bindings scd="tns:param">
+      <class ref="org.tei_c.ns._1.Param"/>
+    </bindings>
+    <bindings scd="tns:outputRendition">
+      <class ref="org.tei_c.ns._1.OutputRendition"/>
+    </bindings>
+    <bindings scd="tns:modelGrp">
+      <class ref="org.tei_c.ns._1.ModelGrp"/>
+    </bindings>
+    <bindings scd="tns:modelSequence">
+      <class ref="org.tei_c.ns._1.ModelSequence"/>
+    </bindings>
+    <bindings scd="tns:classSpec">
+      <class ref="org.tei_c.ns._1.ClassSpec"/>
+    </bindings>
+    <bindings scd="tns:dataSpec">
+      <class ref="org.tei_c.ns._1.DataSpec"/>
+    </bindings>
+    <bindings scd="tns:macroSpec">
+      <class ref="org.tei_c.ns._1.MacroSpec"/>
+    </bindings>
+    <bindings scd="tns:moduleRef">
+      <class ref="org.tei_c.ns._1.ModuleRef"/>
+    </bindings>
+    <bindings scd="tns:listBibl">
+      <class ref="org.tei_c.ns._1.ListBibl"/>
+    </bindings>
+    <bindings scd="tns:relation">
+      <class ref="org.tei_c.ns._1.Relation"/>
+    </bindings>
+    <bindings scd="tns:listRelation">
+      <class ref="org.tei_c.ns._1.ListRelation"/>
+    </bindings>
+    <bindings scd="tns:biblFull">
+      <class ref="org.tei_c.ns._1.BiblFull"/>
+    </bindings>
+    <bindings scd="tns:fileDesc">
+      <class ref="org.tei_c.ns._1.FileDesc"/>
+    </bindings>
+    <bindings scd="tns:titleStmt">
+      <class ref="org.tei_c.ns._1.TitleStmt"/>
+    </bindings>
+    <bindings scd="tns:principal">
+      <class ref="org.tei_c.ns._1.Principal"/>
+    </bindings>
+    <bindings scd="tns:editionStmt">
+      <class ref="org.tei_c.ns._1.EditionStmt"/>
+    </bindings>
+    <bindings scd="tns:extent">
+      <class ref="org.tei_c.ns._1.Extent"/>
+    </bindings>
+    <bindings scd="tns:publicationStmt">
+      <class ref="org.tei_c.ns._1.PublicationStmt"/>
+    </bindings>
+    <bindings scd="tns:seriesStmt">
+      <class ref="org.tei_c.ns._1.SeriesStmt"/>
+    </bindings>
+    <bindings scd="tns:notesStmt">
+      <class ref="org.tei_c.ns._1.NotesStmt"/>
+    </bindings>
+    <bindings scd="tns:relatedItem">
+      <class ref="org.tei_c.ns._1.RelatedItem"/>
+    </bindings>
+    <bindings scd="tns:msDesc">
+      <class ref="org.tei_c.ns._1.MsDesc"/>
+    </bindings>
+    <bindings scd="tns:msIdentifier">
+      <class ref="org.tei_c.ns._1.MsIdentifier"/>
+    </bindings>
+    <bindings scd="tns:institution">
+      <class ref="org.tei_c.ns._1.Institution"/>
+    </bindings>
+    <bindings scd="tns:repository">
+      <class ref="org.tei_c.ns._1.Repository"/>
+    </bindings>
+    <bindings scd="tns:collection">
+      <class ref="org.tei_c.ns._1.Collection"/>
+    </bindings>
+    <bindings scd="tns:msName">
+      <class ref="org.tei_c.ns._1.MsName"/>
+    </bindings>
+    <bindings scd="tns:rs">
+      <class ref="org.tei_c.ns._1.Rs"/>
+    </bindings>
+    <bindings scd="tns:objectName">
+      <class ref="org.tei_c.ns._1.ObjectName"/>
+    </bindings>
+    <bindings scd="tns:altIdentifier">
+      <class ref="org.tei_c.ns._1.AltIdentifier"/>
+    </bindings>
+    <bindings scd="tns:msContents">
+      <class ref="org.tei_c.ns._1.MsContents"/>
+    </bindings>
+    <bindings scd="tns:summary">
+      <class ref="org.tei_c.ns._1.Summary"/>
+    </bindings>
+    <bindings scd="tns:titlePage">
+      <class ref="org.tei_c.ns._1.TitlePage"/>
+    </bindings>
+    <bindings scd="tns:epigraph">
+      <class ref="org.tei_c.ns._1.Epigraph"/>
+    </bindings>
+    <bindings scd="tns:listApp">
+      <class ref="org.tei_c.ns._1.ListApp"/>
+    </bindings>
+    <bindings scd="tns:listWit">
+      <class ref="org.tei_c.ns._1.ListWit"/>
+    </bindings>
+    <bindings scd="tns:witness">
+      <class ref="org.tei_c.ns._1.Witness"/>
+    </bindings>
+    <bindings scd="tns:terrain">
+      <class ref="org.tei_c.ns._1.Terrain"/>
+    </bindings>
+    <bindings scd="tns:trait">
+      <class ref="org.tei_c.ns._1.Trait"/>
+    </bindings>
+    <bindings scd="tns:lang">
+      <class ref="org.tei_c.ns._1.Lang"/>
+    </bindings>
+    <bindings scd="tns:surname">
+      <class ref="org.tei_c.ns._1.Surname"/>
+    </bindings>
+    <bindings scd="tns:forename">
+      <class ref="org.tei_c.ns._1.Forename"/>
+    </bindings>
+    <bindings scd="tns:genName">
+      <class ref="org.tei_c.ns._1.GenName"/>
+    </bindings>
+    <bindings scd="tns:nameLink">
+      <class ref="org.tei_c.ns._1.NameLink"/>
+    </bindings>
+    <bindings scd="tns:addName">
+      <class ref="org.tei_c.ns._1.AddName"/>
+    </bindings>
+    <bindings scd="tns:roleName">
+      <class ref="org.tei_c.ns._1.RoleName"/>
+    </bindings>
+    <bindings scd="tns:persPronouns">
+      <class ref="org.tei_c.ns._1.PersPronouns"/>
+    </bindings>
+    <bindings scd="tns:eventName">
+      <class ref="org.tei_c.ns._1.EventName"/>
+    </bindings>
+    <bindings scd="tns:listOrg">
+      <class ref="org.tei_c.ns._1.ListOrg"/>
+    </bindings>
+    <bindings scd="tns:org">
+      <class ref="org.tei_c.ns._1.Org"/>
+    </bindings>
+    <bindings scd="tns:place">
+      <class ref="org.tei_c.ns._1.Place"/>
+    </bindings>
+    <bindings scd="tns:event">
+      <class ref="org.tei_c.ns._1.Event"/>
+    </bindings>
+    <bindings scd="tns:listEvent">
+      <class ref="org.tei_c.ns._1.ListEvent"/>
+    </bindings>
+    <bindings scd="tns:person">
+      <class ref="org.tei_c.ns._1.Person"/>
+    </bindings>
+    <bindings scd="tns:age">
+      <class ref="org.tei_c.ns._1.Age"/>
+    </bindings>
+    <bindings scd="tns:education">
+      <class ref="org.tei_c.ns._1.Education"/>
+    </bindings>
+    <bindings scd="tns:faith">
+      <class ref="org.tei_c.ns._1.Faith"/>
+    </bindings>
+    <bindings scd="tns:floruit">
+      <class ref="org.tei_c.ns._1.Floruit"/>
+    </bindings>
+    <bindings scd="tns:gender">
+      <class ref="org.tei_c.ns._1.Gender"/>
+    </bindings>
+    <bindings scd="tns:langKnowledge">
+      <class ref="org.tei_c.ns._1.LangKnowledge"/>
+    </bindings>
+    <bindings scd="tns:langKnown">
+      <class ref="org.tei_c.ns._1.LangKnown"/>
+    </bindings>
+    <bindings scd="tns:nationality">
+      <class ref="org.tei_c.ns._1.Nationality"/>
+    </bindings>
+    <bindings scd="tns:occupation">
+      <class ref="org.tei_c.ns._1.Occupation"/>
+    </bindings>
+    <bindings scd="tns:persona">
+      <class ref="org.tei_c.ns._1.Persona"/>
+    </bindings>
+    <bindings scd="tns:residence">
+      <class ref="org.tei_c.ns._1.Residence"/>
+    </bindings>
+    <bindings scd="tns:sex">
+      <class ref="org.tei_c.ns._1.Sex"/>
+    </bindings>
+    <bindings scd="tns:socecStatus">
+      <class ref="org.tei_c.ns._1.SocecStatus"/>
+    </bindings>
+    <bindings scd="tns:birth">
+      <class ref="org.tei_c.ns._1.Birth"/>
+    </bindings>
+    <bindings scd="tns:death">
+      <class ref="org.tei_c.ns._1.Death"/>
+    </bindings>
+    <bindings scd="tns:personGrp">
+      <class ref="org.tei_c.ns._1.PersonGrp"/>
+    </bindings>
+    <bindings scd="tns:listPerson">
+      <class ref="org.tei_c.ns._1.ListPerson"/>
+    </bindings>
+    <bindings scd="tns:listPlace">
+      <class ref="org.tei_c.ns._1.ListPlace"/>
+    </bindings>
+    <bindings scd="tns:object">
+      <class ref="org.tei_c.ns._1.Object"/>
+    </bindings>
+    <bindings scd="tns:objectIdentifier">
+      <class ref="org.tei_c.ns._1.ObjectIdentifier"/>
+    </bindings>
+    <bindings scd="tns:physDesc">
+      <class ref="org.tei_c.ns._1.PhysDesc"/>
+    </bindings>
+    <bindings scd="tns:objectDesc">
+      <class ref="org.tei_c.ns._1.ObjectDesc"/>
+    </bindings>
+    <bindings scd="tns:supportDesc">
+      <class ref="org.tei_c.ns._1.SupportDesc"/>
+    </bindings>
+    <bindings scd="tns:support">
+      <class ref="org.tei_c.ns._1.Support"/>
+    </bindings>
+    <bindings scd="tns:foliation">
+      <class ref="org.tei_c.ns._1.Foliation"/>
+    </bindings>
+    <bindings scd="tns:collation">
+      <class ref="org.tei_c.ns._1.Collation"/>
+    </bindings>
+    <bindings scd="tns:condition">
+      <class ref="org.tei_c.ns._1.Condition"/>
+    </bindings>
+    <bindings scd="tns:layoutDesc">
+      <class ref="org.tei_c.ns._1.LayoutDesc"/>
+    </bindings>
+    <bindings scd="tns:layout">
+      <class ref="org.tei_c.ns._1.Layout"/>
+    </bindings>
+    <bindings scd="tns:handDesc">
+      <class ref="org.tei_c.ns._1.HandDesc"/>
+    </bindings>
+    <bindings scd="tns:handNote">
+      <class ref="org.tei_c.ns._1.HandNote"/>
+    </bindings>
+    <bindings scd="tns:typeDesc">
+      <class ref="org.tei_c.ns._1.TypeDesc"/>
+    </bindings>
+    <bindings scd="tns:typeNote">
+      <class ref="org.tei_c.ns._1.TypeNote"/>
+    </bindings>
+    <bindings scd="tns:scriptDesc">
+      <class ref="org.tei_c.ns._1.ScriptDesc"/>
+    </bindings>
+    <bindings scd="tns:scriptNote">
+      <class ref="org.tei_c.ns._1.ScriptNote"/>
+    </bindings>
+    <bindings scd="tns:musicNotation">
+      <class ref="org.tei_c.ns._1.MusicNotation"/>
+    </bindings>
+    <bindings scd="tns:decoDesc">
+      <class ref="org.tei_c.ns._1.DecoDesc"/>
+    </bindings>
+    <bindings scd="tns:decoNote">
+      <class ref="org.tei_c.ns._1.DecoNote"/>
+    </bindings>
+    <bindings scd="tns:additions">
+      <class ref="org.tei_c.ns._1.Additions"/>
+    </bindings>
+    <bindings scd="tns:bindingDesc">
+      <class ref="org.tei_c.ns._1.BindingDesc"/>
+    </bindings>
+    <bindings scd="tns:binding">
+      <class ref="org.tei_c.ns._1.Binding"/>
+    </bindings>
+    <bindings scd="tns:sealDesc">
+      <class ref="org.tei_c.ns._1.SealDesc"/>
+    </bindings>
+    <bindings scd="tns:seal">
+      <class ref="org.tei_c.ns._1.Seal"/>
+    </bindings>
+    <bindings scd="tns:accMat">
+      <class ref="org.tei_c.ns._1.AccMat"/>
+    </bindings>
+    <bindings scd="tns:history">
+      <class ref="org.tei_c.ns._1.History"/>
+    </bindings>
+    <bindings scd="tns:origin">
+      <class ref="org.tei_c.ns._1.Origin"/>
+    </bindings>
+    <bindings scd="tns:provenance">
+      <class ref="org.tei_c.ns._1.Provenance"/>
+    </bindings>
+    <bindings scd="tns:acquisition">
+      <class ref="org.tei_c.ns._1.Acquisition"/>
+    </bindings>
+    <bindings scd="tns:additional">
+      <class ref="org.tei_c.ns._1.Additional"/>
+    </bindings>
+    <bindings scd="tns:adminInfo">
+      <class ref="org.tei_c.ns._1.AdminInfo"/>
+    </bindings>
+    <bindings scd="tns:recordHist">
+      <class ref="org.tei_c.ns._1.RecordHist"/>
+    </bindings>
+    <bindings scd="tns:source">
+      <class ref="org.tei_c.ns._1.Source"/>
+    </bindings>
+    <bindings scd="tns:change">
+      <class ref="org.tei_c.ns._1.Change"/>
+    </bindings>
+    <bindings scd="tns:custodialHist">
+      <class ref="org.tei_c.ns._1.CustodialHist"/>
+    </bindings>
+    <bindings scd="tns:custEvent">
+      <class ref="org.tei_c.ns._1.CustEvent"/>
+    </bindings>
+    <bindings scd="tns:surrogates">
+      <class ref="org.tei_c.ns._1.Surrogates"/>
+    </bindings>
+    <bindings scd="tns:listObject">
+      <class ref="org.tei_c.ns._1.ListObject"/>
+    </bindings>
+    <bindings scd="tns:listNym">
+      <class ref="org.tei_c.ns._1.ListNym"/>
+    </bindings>
+    <bindings scd="tns:nym">
+      <class ref="org.tei_c.ns._1.Nym"/>
+    </bindings>
+    <bindings scd="tns:superEntry">
+      <class ref="org.tei_c.ns._1.SuperEntry"/>
+    </bindings>
+    <bindings scd="tns:dictScrap">
+      <class ref="org.tei_c.ns._1.DictScrap"/>
+    </bindings>
+    <bindings scd="tns:hom">
+      <class ref="org.tei_c.ns._1.Hom"/>
+    </bindings>
+    <bindings scd="tns:sense">
+      <class ref="org.tei_c.ns._1.Sense"/>
+    </bindings>
+    <bindings scd="tns:cit">
+      <class ref="org.tei_c.ns._1.Cit"/>
+    </bindings>
+    <bindings scd="tns:form">
+      <class ref="org.tei_c.ns._1.Form"/>
+    </bindings>
+    <bindings scd="tns:ruby">
+      <class ref="org.tei_c.ns._1.Ruby"/>
+    </bindings>
+    <bindings scd="tns:rb">
+      <class ref="org.tei_c.ns._1.Rb"/>
+    </bindings>
+    <bindings scd="tns:rt">
+      <class ref="org.tei_c.ns._1.Rt"/>
+    </bindings>
+    <bindings scd="tns:oRef">
+      <class ref="org.tei_c.ns._1.ORef"/>
+    </bindings>
+    <bindings scd="tns:pRef">
+      <class ref="org.tei_c.ns._1.PRef"/>
+    </bindings>
+    <bindings scd="tns:table">
+      <class ref="org.tei_c.ns._1.Table"/>
+    </bindings>
+    <bindings scd="tns:row">
+      <class ref="org.tei_c.ns._1.Row"/>
+    </bindings>
+    <bindings scd="tns:cell">
+      <class ref="org.tei_c.ns._1.Cell"/>
+    </bindings>
+    <bindings scd="tns:salute">
+      <class ref="org.tei_c.ns._1.Salute"/>
+    </bindings>
+    <bindings scd="tns:docAuthor">
+      <class ref="org.tei_c.ns._1.DocAuthor"/>
+    </bindings>
+    <bindings scd="tns:docDate">
+      <class ref="org.tei_c.ns._1.DocDate"/>
+    </bindings>
+    <bindings scd="tns:trailer">
+      <class ref="org.tei_c.ns._1.Trailer"/>
+    </bindings>
+    <bindings scd="tns:said">
+      <class ref="org.tei_c.ns._1.Said"/>
+    </bindings>
+    <bindings scd="tns:floatingText">
+      <class ref="org.tei_c.ns._1.FloatingText"/>
+    </bindings>
+    <bindings scd="tns:front">
+      <class ref="org.tei_c.ns._1.Front"/>
+    </bindings>
+    <bindings scd="tns:set">
+      <class ref="org.tei_c.ns._1.Set"/>
+    </bindings>
+    <bindings scd="tns:castList">
+      <class ref="org.tei_c.ns._1.CastList"/>
+    </bindings>
+    <bindings scd="tns:opener">
+      <class ref="org.tei_c.ns._1.Opener"/>
+    </bindings>
+    <bindings scd="tns:signed">
+      <class ref="org.tei_c.ns._1.Signed"/>
+    </bindings>
+    <bindings scd="tns:entry">
+      <class ref="org.tei_c.ns._1.Entry"/>
+    </bindings>
+    <bindings scd="tns:gramGrp">
+      <class ref="org.tei_c.ns._1.GramGrp"/>
+    </bindings>
+    <bindings scd="tns:gram">
+      <class ref="org.tei_c.ns._1.Gram"/>
+    </bindings>
+    <bindings scd="tns:gen">
+      <class ref="org.tei_c.ns._1.Gen"/>
+    </bindings>
+    <bindings scd="tns:number">
+      <class ref="org.tei_c.ns._1.Number"/>
+    </bindings>
+    <bindings scd="tns:case">
+      <class ref="org.tei_c.ns._1.Case"/>
+    </bindings>
+    <bindings scd="tns:per">
+      <class ref="org.tei_c.ns._1.Per"/>
+    </bindings>
+    <bindings scd="tns:tns">
+      <class ref="org.tei_c.ns._1.Tns"/>
+    </bindings>
+    <bindings scd="tns:mood">
+      <class ref="org.tei_c.ns._1.Mood"/>
+    </bindings>
+    <bindings scd="tns:iType">
+      <class ref="org.tei_c.ns._1.IType"/>
+    </bindings>
+    <bindings scd="tns:pos">
+      <class ref="org.tei_c.ns._1.Pos"/>
+    </bindings>
+    <bindings scd="tns:subc">
+      <class ref="org.tei_c.ns._1.Subc"/>
+    </bindings>
+    <bindings scd="tns:colloc">
+      <class ref="org.tei_c.ns._1.Colloc"/>
+    </bindings>
+    <bindings scd="tns:usg">
+      <class ref="org.tei_c.ns._1.Usg"/>
+    </bindings>
+    <bindings scd="tns:lbl">
+      <class ref="org.tei_c.ns._1.Lbl"/>
+    </bindings>
+    <bindings scd="tns:def">
+      <class ref="org.tei_c.ns._1.Def"/>
+    </bindings>
+    <bindings scd="tns:etym">
+      <class ref="org.tei_c.ns._1.Etym"/>
+    </bindings>
+    <bindings scd="tns:xr">
+      <class ref="org.tei_c.ns._1.Xr"/>
+    </bindings>
+    <bindings scd="tns:re">
+      <class ref="org.tei_c.ns._1.Re"/>
+    </bindings>
+    <bindings scd="tns:entryFree">
+      <class ref="org.tei_c.ns._1.EntryFree"/>
+    </bindings>
+    <bindings scd="tns:orth">
+      <class ref="org.tei_c.ns._1.Orth"/>
+    </bindings>
+    <bindings scd="tns:pron">
+      <class ref="org.tei_c.ns._1.Pron"/>
+    </bindings>
+    <bindings scd="tns:hyph">
+      <class ref="org.tei_c.ns._1.Hyph"/>
+    </bindings>
+    <bindings scd="tns:syll">
+      <class ref="org.tei_c.ns._1.Syll"/>
+    </bindings>
+    <bindings scd="tns:castItem">
+      <class ref="org.tei_c.ns._1.CastItem"/>
+    </bindings>
+    <bindings scd="tns:role">
+      <class ref="org.tei_c.ns._1.Role"/>
+    </bindings>
+    <bindings scd="tns:roleDesc">
+      <class ref="org.tei_c.ns._1.RoleDesc"/>
+    </bindings>
+    <bindings scd="tns:actor">
+      <class ref="org.tei_c.ns._1.Actor"/>
+    </bindings>
+    <bindings scd="tns:castGroup">
+      <class ref="org.tei_c.ns._1.CastGroup"/>
+    </bindings>
+    <bindings scd="tns:prologue">
+      <class ref="org.tei_c.ns._1.Prologue"/>
+    </bindings>
+    <bindings scd="tns:closer">
+      <class ref="org.tei_c.ns._1.Closer"/>
+    </bindings>
+    <bindings scd="tns:postscript">
+      <class ref="org.tei_c.ns._1.Postscript"/>
+    </bindings>
+    <bindings scd="tns:epilogue">
+      <class ref="org.tei_c.ns._1.Epilogue"/>
+    </bindings>
+    <bindings scd="tns:performance">
+      <class ref="org.tei_c.ns._1.Performance"/>
+    </bindings>
+    <bindings scd="tns:divGen">
+      <class ref="org.tei_c.ns._1.DivGen"/>
+    </bindings>
+    <bindings scd="tns:schemaSpec">
+      <class ref="org.tei_c.ns._1.SchemaSpec"/>
+    </bindings>
+    <bindings scd="tns:docTitle">
+      <class ref="org.tei_c.ns._1.DocTitle"/>
+    </bindings>
+    <bindings scd="tns:titlePart">
+      <class ref="org.tei_c.ns._1.TitlePart"/>
+    </bindings>
+    <bindings scd="tns:docEdition">
+      <class ref="org.tei_c.ns._1.DocEdition"/>
+    </bindings>
+    <bindings scd="tns:docImprint">
+      <class ref="org.tei_c.ns._1.DocImprint"/>
+    </bindings>
+    <bindings scd="tns:div1">
+      <class ref="org.tei_c.ns._1.Div1"/>
+    </bindings>
+    <bindings scd="tns:div2">
+      <class ref="org.tei_c.ns._1.Div2"/>
+    </bindings>
+    <bindings scd="tns:div3">
+      <class ref="org.tei_c.ns._1.Div3"/>
+    </bindings>
+    <bindings scd="tns:div4">
+      <class ref="org.tei_c.ns._1.Div4"/>
+    </bindings>
+    <bindings scd="tns:div5">
+      <class ref="org.tei_c.ns._1.Div5"/>
+    </bindings>
+    <bindings scd="tns:div6">
+      <class ref="org.tei_c.ns._1.Div6"/>
+    </bindings>
+    <bindings scd="tns:div7">
+      <class ref="org.tei_c.ns._1.Div7"/>
+    </bindings>
+    <bindings scd="tns:body">
+      <class ref="org.tei_c.ns._1.Body"/>
+    </bindings>
+    <bindings scd="tns:group">
+      <class ref="org.tei_c.ns._1.Group"/>
+    </bindings>
+    <bindings scd="tns:text">
+      <class ref="org.tei_c.ns._1.Text"/>
+    </bindings>
+    <bindings scd="tns:back">
+      <class ref="org.tei_c.ns._1.Back"/>
+    </bindings>
+    <bindings scd="tns:stress">
+      <class ref="org.tei_c.ns._1.Stress"/>
+    </bindings>
+    <bindings scd="tns:imprimatur">
+      <class ref="org.tei_c.ns._1.Imprimatur"/>
+    </bindings>
+    <bindings scd="tns:msItem">
+      <class ref="org.tei_c.ns._1.MsItem"/>
+    </bindings>
+    <bindings scd="tns:colophon">
+      <class ref="org.tei_c.ns._1.Colophon"/>
+    </bindings>
+    <bindings scd="tns:explicit">
+      <class ref="org.tei_c.ns._1.Explicit"/>
+    </bindings>
+    <bindings scd="tns:finalRubric">
+      <class ref="org.tei_c.ns._1.FinalRubric"/>
+    </bindings>
+    <bindings scd="tns:incipit">
+      <class ref="org.tei_c.ns._1.Incipit"/>
+    </bindings>
+    <bindings scd="tns:rubric">
+      <class ref="org.tei_c.ns._1.Rubric"/>
+    </bindings>
+    <bindings scd="tns:filiation">
+      <class ref="org.tei_c.ns._1.Filiation"/>
+    </bindings>
+    <bindings scd="tns:msItemStruct">
+      <class ref="org.tei_c.ns._1.MsItemStruct"/>
+    </bindings>
+    <bindings scd="tns:msPart">
+      <class ref="org.tei_c.ns._1.MsPart"/>
+    </bindings>
+    <bindings scd="tns:msFrag">
+      <class ref="org.tei_c.ns._1.MsFrag"/>
+    </bindings>
+    <bindings scd="tns:sourceDesc">
+      <class ref="org.tei_c.ns._1.SourceDesc"/>
+    </bindings>
+    <bindings scd="tns:scriptStmt">
+      <class ref="org.tei_c.ns._1.ScriptStmt"/>
+    </bindings>
+    <bindings scd="tns:recordingStmt">
+      <class ref="org.tei_c.ns._1.RecordingStmt"/>
+    </bindings>
+    <bindings scd="tns:recording">
+      <class ref="org.tei_c.ns._1.Recording"/>
+    </bindings>
+    <bindings scd="tns:equipment">
+      <class ref="org.tei_c.ns._1.Equipment"/>
+    </bindings>
+    <bindings scd="tns:broadcast">
+      <class ref="org.tei_c.ns._1.Broadcast"/>
+    </bindings>
+    <bindings scd="tns:profileDesc">
+      <class ref="org.tei_c.ns._1.ProfileDesc"/>
+    </bindings>
+    <bindings scd="tns:abstract">
+      <class ref="org.tei_c.ns._1.Abstract"/>
+    </bindings>
+    <bindings scd="tns:creation">
+      <class ref="org.tei_c.ns._1.Creation"/>
+    </bindings>
+    <bindings scd="tns:listChange">
+      <class ref="org.tei_c.ns._1.ListChange"/>
+    </bindings>
+    <bindings scd="tns:langUsage">
+      <class ref="org.tei_c.ns._1.LangUsage"/>
+    </bindings>
+    <bindings scd="tns:language">
+      <class ref="org.tei_c.ns._1.Language"/>
+    </bindings>
+    <bindings scd="tns:textClass">
+      <class ref="org.tei_c.ns._1.TextClass"/>
+    </bindings>
+    <bindings scd="tns:keywords">
+      <class ref="org.tei_c.ns._1.Keywords"/>
+    </bindings>
+    <bindings scd="tns:calendarDesc">
+      <class ref="org.tei_c.ns._1.CalendarDesc"/>
+    </bindings>
+    <bindings scd="tns:calendar">
+      <class ref="org.tei_c.ns._1.Calendar"/>
+    </bindings>
+    <bindings scd="tns:correspDesc">
+      <class ref="org.tei_c.ns._1.CorrespDesc"/>
+    </bindings>
+    <bindings scd="tns:correspAction">
+      <class ref="org.tei_c.ns._1.CorrespAction"/>
+    </bindings>
+    <bindings scd="tns:correspContext">
+      <class ref="org.tei_c.ns._1.CorrespContext"/>
+    </bindings>
+    <bindings scd="tns:handNotes">
+      <class ref="org.tei_c.ns._1.HandNotes"/>
+    </bindings>
+    <bindings scd="tns:textDesc">
+      <class ref="org.tei_c.ns._1.TextDesc"/>
+    </bindings>
+    <bindings scd="tns:channel">
+      <class ref="org.tei_c.ns._1.Channel"/>
+    </bindings>
+    <bindings scd="tns:constitution">
+      <class ref="org.tei_c.ns._1.Constitution"/>
+    </bindings>
+    <bindings scd="tns:derivation">
+      <class ref="org.tei_c.ns._1.Derivation"/>
+    </bindings>
+    <bindings scd="tns:domain">
+      <class ref="org.tei_c.ns._1.Domain"/>
+    </bindings>
+    <bindings scd="tns:factuality">
+      <class ref="org.tei_c.ns._1.Factuality"/>
+    </bindings>
+    <bindings scd="tns:interaction">
+      <class ref="org.tei_c.ns._1.Interaction"/>
+    </bindings>
+    <bindings scd="tns:preparedness">
+      <class ref="org.tei_c.ns._1.Preparedness"/>
+    </bindings>
+    <bindings scd="tns:purpose">
+      <class ref="org.tei_c.ns._1.Purpose"/>
+    </bindings>
+    <bindings scd="tns:particDesc">
+      <class ref="org.tei_c.ns._1.ParticDesc"/>
+    </bindings>
+    <bindings scd="tns:settingDesc">
+      <class ref="org.tei_c.ns._1.SettingDesc"/>
+    </bindings>
+    <bindings scd="tns:setting">
+      <class ref="org.tei_c.ns._1.Setting"/>
+    </bindings>
+    <bindings scd="tns:locale">
+      <class ref="org.tei_c.ns._1.Locale"/>
+    </bindings>
+    <bindings scd="tns:activity">
+      <class ref="org.tei_c.ns._1.Activity"/>
+    </bindings>
+    <bindings scd="tns:item">
+      <class ref="org.tei_c.ns._1.Item"/>
+    </bindings>
+    <bindings scd="tns:headLabel">
+      <class ref="org.tei_c.ns._1.HeadLabel"/>
+    </bindings>
+    <bindings scd="tns:headItem">
+      <class ref="org.tei_c.ns._1.HeadItem"/>
+    </bindings>
+    <bindings scd="tns:figDesc">
+      <class ref="org.tei_c.ns._1.FigDesc"/>
+    </bindings>
+    <bindings scd="tns:series">
+      <class ref="org.tei_c.ns._1.Series"/>
+    </bindings>
+    <bindings scd="tns:citedRange">
+      <class ref="org.tei_c.ns._1.CitedRange"/>
+    </bindings>
+    <bindings scd="tns:wit">
+      <class ref="org.tei_c.ns._1.Wit"/>
+    </bindings>
+    <bindings scd="tns:witStart">
+      <class ref="org.tei_c.ns._1.WitStart"/>
+    </bindings>
+    <bindings scd="tns:witEnd">
+      <class ref="org.tei_c.ns._1.WitEnd"/>
+    </bindings>
+    <bindings scd="tns:lacunaStart">
+      <class ref="org.tei_c.ns._1.LacunaStart"/>
+    </bindings>
+    <bindings scd="tns:lacunaEnd">
+      <class ref="org.tei_c.ns._1.LacunaEnd"/>
+    </bindings>
+    <bindings scd="tns:rdg">
+      <class ref="org.tei_c.ns._1.Rdg"/>
+    </bindings>
+    <bindings scd="tns:rdgGrp">
+      <class ref="org.tei_c.ns._1.RdgGrp"/>
+    </bindings>
+    <bindings scd="tns:addrLine">
+      <class ref="org.tei_c.ns._1.AddrLine"/>
+    </bindings>
+    <bindings scd="tns:street">
+      <class ref="org.tei_c.ns._1.Street"/>
+    </bindings>
+    <bindings scd="tns:postCode">
+      <class ref="org.tei_c.ns._1.PostCode"/>
+    </bindings>
+    <bindings scd="tns:postBox">
+      <class ref="org.tei_c.ns._1.PostBox"/>
+    </bindings>
+    <bindings scd="tns:teiCorpus">
+      <class ref="org.tei_c.ns._1.TeiCorpus"/>
+    </bindings>
+    <bindings scd="tns:teiHeader">
+      <class ref="org.tei_c.ns._1.TeiHeader"/>
+    </bindings>
+    <bindings scd="tns:encodingDesc">
+      <class ref="org.tei_c.ns._1.EncodingDesc"/>
+    </bindings>
+    <bindings scd="tns:schemaRef">
+      <class ref="org.tei_c.ns._1.SchemaRef"/>
+    </bindings>
+    <bindings scd="tns:projectDesc">
+      <class ref="org.tei_c.ns._1.ProjectDesc"/>
+    </bindings>
+    <bindings scd="tns:samplingDecl">
+      <class ref="org.tei_c.ns._1.SamplingDecl"/>
+    </bindings>
+    <bindings scd="tns:editorialDecl">
+      <class ref="org.tei_c.ns._1.EditorialDecl"/>
+    </bindings>
+    <bindings scd="tns:correction">
+      <class ref="org.tei_c.ns._1.Correction"/>
+    </bindings>
+    <bindings scd="tns:normalization">
+      <class ref="org.tei_c.ns._1.Normalization"/>
+    </bindings>
+    <bindings scd="tns:quotation">
+      <class ref="org.tei_c.ns._1.Quotation"/>
+    </bindings>
+    <bindings scd="tns:hyphenation">
+      <class ref="org.tei_c.ns._1.Hyphenation"/>
+    </bindings>
+    <bindings scd="tns:segmentation">
+      <class ref="org.tei_c.ns._1.Segmentation"/>
+    </bindings>
+    <bindings scd="tns:stdVals">
+      <class ref="org.tei_c.ns._1.StdVals"/>
+    </bindings>
+    <bindings scd="tns:interpretation">
+      <class ref="org.tei_c.ns._1.Interpretation"/>
+    </bindings>
+    <bindings scd="tns:punctuation">
+      <class ref="org.tei_c.ns._1.Punctuation"/>
+    </bindings>
+    <bindings scd="tns:tagsDecl">
+      <class ref="org.tei_c.ns._1.TagsDecl"/>
+    </bindings>
+    <bindings scd="tns:rendition">
+      <class ref="org.tei_c.ns._1.Rendition"/>
+    </bindings>
+    <bindings scd="tns:namespace">
+      <class ref="org.tei_c.ns._1.Namespace"/>
+    </bindings>
+    <bindings scd="tns:tagUsage">
+      <class ref="org.tei_c.ns._1.TagUsage"/>
+    </bindings>
+    <bindings scd="tns:styleDefDecl">
+      <class ref="org.tei_c.ns._1.StyleDefDecl"/>
+    </bindings>
+    <bindings scd="tns:refsDecl">
+      <class ref="org.tei_c.ns._1.RefsDecl"/>
+    </bindings>
+    <bindings scd="tns:refState">
+      <class ref="org.tei_c.ns._1.RefState"/>
+    </bindings>
+    <bindings scd="tns:cRefPattern">
+      <class ref="org.tei_c.ns._1.CRefPattern"/>
+    </bindings>
+    <bindings scd="tns:citeStructure">
+      <class ref="org.tei_c.ns._1.CiteStructure"/>
+    </bindings>
+    <bindings scd="tns:citeData">
+      <class ref="org.tei_c.ns._1.CiteData"/>
+    </bindings>
+    <bindings scd="tns:listPrefixDef">
+      <class ref="org.tei_c.ns._1.ListPrefixDef"/>
+    </bindings>
+    <bindings scd="tns:prefixDef">
+      <class ref="org.tei_c.ns._1.PrefixDef"/>
+    </bindings>
+    <bindings scd="tns:classDecl">
+      <class ref="org.tei_c.ns._1.ClassDecl"/>
+    </bindings>
+    <bindings scd="tns:taxonomy">
+      <class ref="org.tei_c.ns._1.Taxonomy"/>
+    </bindings>
+    <bindings scd="tns:category">
+      <class ref="org.tei_c.ns._1.Category"/>
+    </bindings>
+    <bindings scd="tns:catDesc">
+      <class ref="org.tei_c.ns._1.CatDesc"/>
+    </bindings>
+    <bindings scd="tns:geoDecl">
+      <class ref="org.tei_c.ns._1.GeoDecl"/>
+    </bindings>
+    <bindings scd="tns:unitDecl">
+      <class ref="org.tei_c.ns._1.UnitDecl"/>
+    </bindings>
+    <bindings scd="tns:unitDef">
+      <class ref="org.tei_c.ns._1.UnitDef"/>
+    </bindings>
+    <bindings scd="tns:conversion">
+      <class ref="org.tei_c.ns._1.Conversion"/>
+    </bindings>
+    <bindings scd="tns:appInfo">
+      <class ref="org.tei_c.ns._1.AppInfo"/>
+    </bindings>
+    <bindings scd="tns:application">
+      <class ref="org.tei_c.ns._1.Application"/>
+    </bindings>
+    <bindings scd="tns:charDecl">
+      <class ref="org.tei_c.ns._1.CharDecl"/>
+    </bindings>
+    <bindings scd="tns:char">
+      <class ref="org.tei_c.ns._1.Char"/>
+    </bindings>
+    <bindings scd="tns:unicodeProp">
+      <class ref="org.tei_c.ns._1.UnicodeProp"/>
+    </bindings>
+    <bindings scd="tns:unihanProp">
+      <class ref="org.tei_c.ns._1.UnihanProp"/>
+    </bindings>
+    <bindings scd="tns:localProp">
+      <class ref="org.tei_c.ns._1.LocalProp"/>
+    </bindings>
+    <bindings scd="tns:mapping">
+      <class ref="org.tei_c.ns._1.Mapping"/>
+    </bindings>
+    <bindings scd="tns:glyph">
+      <class ref="org.tei_c.ns._1.Glyph"/>
+    </bindings>
+    <bindings scd="tns:metDecl">
+      <class ref="org.tei_c.ns._1.MetDecl"/>
+    </bindings>
+    <bindings scd="tns:metSym">
+      <class ref="org.tei_c.ns._1.MetSym"/>
+    </bindings>
+    <bindings scd="tns:transcriptionDesc">
+      <class ref="org.tei_c.ns._1.TranscriptionDesc"/>
+    </bindings>
+    <bindings scd="tns:variantEncoding">
+      <class ref="org.tei_c.ns._1.VariantEncoding"/>
+    </bindings>
+    <bindings scd="tns:fsdDecl">
+      <class ref="org.tei_c.ns._1.FsdDecl"/>
+    </bindings>
+    <bindings scd="tns:fsDecl">
+      <class ref="org.tei_c.ns._1.FsDecl"/>
+    </bindings>
+    <bindings scd="tns:fsDescr">
+      <class ref="org.tei_c.ns._1.FsDescr"/>
+    </bindings>
+    <bindings scd="tns:fDecl">
+      <class ref="org.tei_c.ns._1.FDecl"/>
+    </bindings>
+    <bindings scd="tns:fDescr">
+      <class ref="org.tei_c.ns._1.FDescr"/>
+    </bindings>
+    <bindings scd="tns:vRange">
+      <class ref="org.tei_c.ns._1.VRange"/>
+    </bindings>
+    <bindings scd="tns:vDefault">
+      <class ref="org.tei_c.ns._1.VDefault"/>
+    </bindings>
+    <bindings scd="tns:if">
+      <class ref="org.tei_c.ns._1.If"/>
+    </bindings>
+    <bindings scd="tns:then">
+      <class ref="org.tei_c.ns._1.Then"/>
+    </bindings>
+    <bindings scd="tns:fsConstraints">
+      <class ref="org.tei_c.ns._1.FsConstraints"/>
+    </bindings>
+    <bindings scd="tns:cond">
+      <class ref="org.tei_c.ns._1.Cond"/>
+    </bindings>
+    <bindings scd="tns:bicond">
+      <class ref="org.tei_c.ns._1.Bicond"/>
+    </bindings>
+    <bindings scd="tns:iff">
+      <class ref="org.tei_c.ns._1.Iff"/>
+    </bindings>
+    <bindings scd="tns:fsdLink">
+      <class ref="org.tei_c.ns._1.FsdLink"/>
+    </bindings>
+    <bindings scd="tns:xenoData">
+      <class ref="org.tei_c.ns._1.XenoData"/>
+    </bindings>
+    <bindings scd="tns:revisionDesc">
+      <class ref="org.tei_c.ns._1.RevisionDesc"/>
+    </bindings>
+    <bindings scd="tns:facsimile">
+      <class ref="org.tei_c.ns._1.Facsimile"/>
+    </bindings>
+    <bindings scd="tns:surface">
+      <class ref="org.tei_c.ns._1.Surface"/>
+    </bindings>
+    <bindings scd="tns:zone">
+      <class ref="org.tei_c.ns._1.Zone"/>
+    </bindings>
+    <bindings scd="tns:path">
+      <class ref="org.tei_c.ns._1.Path"/>
+    </bindings>
+    <bindings scd="tns:line">
+      <class ref="org.tei_c.ns._1.Line"/>
+    </bindings>
+    <bindings scd="tns:surfaceGrp">
+      <class ref="org.tei_c.ns._1.SurfaceGrp"/>
+    </bindings>
+    <bindings scd="tns:sourceDoc">
+      <class ref="org.tei_c.ns._1.SourceDoc"/>
+    </bindings>
+    <bindings scd="tns:standOff">
+      <class ref="org.tei_c.ns._1.StandOff"/>
+    </bindings>
+    <bindings scd="tns:annotation">
+      <class ref="org.tei_c.ns._1.Annotation"/>
+    </bindings>
+    <bindings scd="tns:listAnnotation">
+      <class ref="org.tei_c.ns._1.ListAnnotation"/>
+    </bindings>
+    <bindings scd="tns:TEI">
+      <class ref="org.tei_c.ns._1.TEI"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.tei-c.org/ns/Examples">
+    <schemaBindings map="false">
+      <package name="org.tei_c.ns.examples"/>
+    </schemaBindings>
+    <bindings scd="tns:egXML">
+      <class ref="org.tei_c.ns.examples.EgXML"/>
+    </bindings>
+  </bindings>
+</bindings>
+

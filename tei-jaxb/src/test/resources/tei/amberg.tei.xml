@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEI version="1.0.28" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0"
+><teiHeader><fileDesc><titleStmt><title>Beschreibung von Amberg, Staatsarchiv Amberg, Geistliche Sachen 6254 Prod. 3 (KELLNER, Stephan und Annemarie SPETHMANN: Historische Kataloge der Bayerischen Staatsbibliothek München. Münchner Hofbibliothek und andere Provenienzen. - Wiesbaden: Harrassowitz, 1996. - (Catalogus codicum manu scriptorum Bibliothecae Monacensis; T. 11))S. 312–313</title><respStmt><resp>Beschrieben von</resp><persName role="author">Stephan Kellner</persName><persName role="author">Annemarie Spethmann</persName><note>1996</note></respStmt></titleStmt><editionStmt><edition>Elektronische Ausgabe nach TEI P5</edition><respStmt><resp>Diese Datei wurde unter Anwendung des MXML-to-TEI-P5-Stylesheets, welches an der Herzog August Bibliothek Wolfenbüttel im Rahmen des Projektes "Handschriftenportal" gepflegt wird aus einem am 14.09.2022 12:39:38:827 erstellten HIDA-DOC1-XML-Dokument erstellt.</resp><name type="org">Handschriftenportal</name></respStmt></editionStmt><publicationStmt><publisher>
+                    <name type="org">Handschriftenportal</name>
+        </publisher><date when="1996" type="primary">1996</date><availability status="restricted"><licence target="http://rightsstatements.org/vocab/InC/1.0/">
+                        <p>http://rightsstatements.org/vocab/InC/1.0/</p>
+          </licence></availability><idno type="hsk">843</idno><date when="2023-03-28" type="secondary">2023-03-28 16:10:01</date><pubPlace>
+                    <ptr xml:id="HSP-b2a8f1e2-dab0-3bf3-9431-fc48df928a83" target="https://resolver.staatsbibliothek-berlin.de/HSP3233172781585333" subtype="hsp" type="purl"/>
+        </pubPlace></publicationStmt><sourceDesc><bibl n="M_SB_Kat_11">KELLNER, Stephan und Annemarie SPETHMANN: Historische Kataloge der Bayerischen Staatsbibliothek München. Münchner Hofbibliothek und andere Provenienzen. - Wiesbaden: Harrassowitz, 1996. - (Catalogus codicum manu scriptorum Bibliothecae Monacensis; T. 11) S.
+                    <biblScope from="Page312_Block4" to="Page313_Block2">312–313</biblScope>
+        </bibl></sourceDesc></fileDesc><profileDesc><creation>
+                <date when="2021-06-01">01.06.2021</date>
+      </creation></profileDesc><revisionDesc><change>
+                <date when="2022-08-11">2022-08-11 00:00:00</date>
+      </change></revisionDesc></teiHeader><text><body><msDesc status="extern" xml:id="HSP-127f6af2-d271-3ff8-a037-667df7a04fde" xml:lang="de" subtype="medieval" type="hsp:description_retro"><msIdentifier><settlement key="NORM-131c063d-7df0-307c-bf8d-080e830893d7">Amberg</settlement><repository key="NORM-cc713e86-f5a0-3029-b4c0-4c4e80eee121" ref="http://d-nb.info/gnd/2053258-1 https://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-2048">Staatsarchiv Amberg</repository><idno>Geistliche Sachen 6254 Prod. 3</idno><altIdentifier type="mxml-ID"><idno>MXML-92004503</idno></altIdentifier><altIdentifier type="hsp-ID"><collection>Handschriftenportal Kulturobjektdokument-ID</collection><idno>HSP-776b873a-2773-3b60-aae9-f64019b85604</idno></altIdentifier></msIdentifier><head>
+                    <index indexName="norm_title"><term type="title">Katalog der Handschriften und Drucke, 1556</term></index>
+                    <title>Katalog der Handschriften und Drucke, 1556</title>
+                    <note type="headline">Papier · 8 (Blatt) · 32,5X22 (cm) · 1556</note>
+                    <index indexName="norm_material"><term type="material">Papier</term><term type="material_type">paper</term></index>
+                    <index indexName="norm_measure"><term type="measure">8 Bl.</term><term type="measure_noOfLeaves">8</term></index>
+                    <index indexName="norm_dimensions"><term type="dimensions">32,5 × 22</term><term type="height">32,5</term><term type="width">22</term><term type="depth"/><term type="dimensions_typeOfInformation">factual</term></index>
+                    <index indexName="norm_format"><term type="format">folio</term><term type="format_typeOfInformation">computed</term></index>
+                    <index indexName="norm_origPlace"><term type="origPlace"/><term type="origPlace_norm"/></index>
+                    <index indexName="norm_origDate"><term type="origDate">1556</term><term type="origDate_notBefore">1556</term><term type="origDate_notAfter">1556</term><term type="origDate_type">dated</term></index>
+                    <index indexName="norm_textLang"><term type="textLang"/><term type="textLang-ID"/></index>
+                    <index indexName="norm_form"><term type="form">codex</term></index>
+                    <index indexName="norm_status"><term type="status"/></index>
+                    <index indexName="norm_decoration"><term type="decoration"/></index>
+                    <index indexName="norm_musicNotation"><term type="musicNotation"/></index>
+        </head></msDesc></body></text></TEI>
